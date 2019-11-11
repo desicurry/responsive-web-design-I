@@ -1,3 +1,91 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+body{
+	padding: 5%;
+}
+h1, h2{
+	font-family: 'Bangers', cursive;
+	letter-spacing: 0.2vh;
+}
+p, li{
+	font-size: 20px;
+	font-family: 'Staatliches', cursive;	
+}	
+
+a{
+	color:lightgrey;
+	text-decoration: none;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.title-div{
+    margin: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    text-align: center;
+}
+.header-img{
+	width: 38%;
+}
+.title h1 {
+	font-size: 100px;
+	text-align: center;
+}
+.title-div h3{
+	width: 25%;
+	text-align: center;
+	border: 1px gray solid;
+	font-size: 20px;
+    padding: 1%;
+	align-self: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}
+
+h2{
+	justify-self: flex-start;
+	font-size: 30px;
+	margin: 5% 0;
+}
+
+.text-area{
+	border-top: 2px gray solid;
+	border-bottom: 2px gray solid;
+	display: flex;
+	flex-wrap: wrap;
+}
+.textOne{
+	margin: 15px 0 30px;
+	display: flex;
+	justify-content: flex-start;
+}
+.about{
+	margin-left: 15%;
+}
+.middle-img{
+	width: 100%;
+}
+.textTwo{
+	padding-bottom: 25px;
+	display: flex;
+	justify-content: flex-start;
+}
+.product{
+	margin-left: 5%;
+}
+.vision{
+	margin-left: 5%;
+}
+.copyright{
+	margin-top: 20px;
+	text-align: center;
+}
 
