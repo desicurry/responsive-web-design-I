@@ -215,7 +215,15 @@ footer {
 	.text-content h4{
 		font-size: medium;
 	}
-	
+    
+    .bottom-content{
+        flex-flow: column;
+    }
+
+    .top-content{
+        flex-flow: column;
+    }
+    
 	.logo{
 
 		padding-left: 30%;
@@ -250,9 +258,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 	}
-	section div{
-		padding-top:15%;
-	}
+	
 
 	.middle-img{
 		max-width: 90%;
@@ -285,3 +291,4 @@ footer {
 
 
 }
+    
